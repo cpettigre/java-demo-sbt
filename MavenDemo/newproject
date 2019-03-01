@@ -1,0 +1,5 @@
+mvn archetype:generate \
+	-DgroupId=com.sbt \
+	-DartifactId=demo-project \
+	-DarchetypeArtifactId=maven-archetype-webapp \
+	-DinteractiveMode=false

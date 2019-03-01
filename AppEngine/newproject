@@ -1,0 +1,10 @@
+mvn archetype:generate \
+ -DarchetypeGroupId=com.google.appengine.archetypes \
+ -DarchetypeArtifactId=appengine-standard-archetype \
+ -DarchetypeVersion=1.0.2 \
+ -Dappengine-version=1.9.71 \
+ -Djava8=true \
+ -Dapplication-id=language-tools-dev \
+ -DgroupId=com.sbt.GAEtest \
+ -DartifactId=GAEtest \
+ -Dversion=1.0-SNAPSHOT
