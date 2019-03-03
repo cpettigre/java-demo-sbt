@@ -1,0 +1,8 @@
+#Create new AppEngine project from archetype
+bash newproject
+
+#Run locally with 
+mvn appengine:run -DskipTests
+
+#Deploy to AppEngine with
+mvn appengine:deploy -DskipTests
