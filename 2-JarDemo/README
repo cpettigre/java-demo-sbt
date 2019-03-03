@@ -1,4 +1,4 @@
-#Build class and JAR files by hand, then try automating the proecss with any
+#Build class and JAR files by hand, then try automating the proecss with ant
 
 
 #Compile classes
