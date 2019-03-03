@@ -1,7 +1,10 @@
-#Create new AppEngine project from archetype
+#Modify the newproject file so that the -Dapplication-id flag has your project id i.e -Dapplication-id=language-tools-dev
+
+#Create new AppEngine application from archetype
 bash newproject
 
 #Run locally with 
+cd GAEtest
 mvn appengine:run -DskipTests
 
 #Deploy to AppEngine with
