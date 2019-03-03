@@ -4,7 +4,7 @@ mvn archetype:generate \
  -DarchetypeVersion=1.0.2 \
  -Dappengine-version=1.9.71 \
  -Djava8=true \
- -Dapplication-id=language-tools-dev \
+ -Dapplication-id=[YOUR_PROJECT_ID]
  -DgroupId=com.sbt.GAEtest \
  -DartifactId=GAEtest \
  -Dversion=1.0-SNAPSHOT
