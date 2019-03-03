@@ -1,0 +1,5 @@
+#Compile into the correct directory structure
+javac -d . HelloWorld.java
+
+#Execute main class
+java com.sbt.MyPackage.HelloWorld
