@@ -1,0 +1,17 @@
+#Build class and JAR files by hand, then try automating the proecss with any
+
+
+#Compile classes
+javac src/MyPackage/* -d build/classes
+
+#Execute compiled code
+java -cp build/classes MyPackage.MyFirstClass
+
+#Compile JAR file
+jar cfm build/jar/MyFirstJar.jar myManifest -C build/classes .
+
+#Run JAR file
+java -jar MyFirstJar.jar
+
+# ant commands are - ant [target-name] - see build.xml
+ant clean
