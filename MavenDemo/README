@@ -1,0 +1,12 @@
+#Test Maven tools to build a new project from scratch and install an existing one (optionally deploy the WAR file to a local Jetty server)
+
+
+#Create a new project from an archetype
+bash newproject
+
+#Build the existing project in test-project
+mvn install
+Copy the war file to Jetty/webapps dir (if Jetty is installed)
+
+#Clean up
+mvn clean
